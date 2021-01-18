@@ -1,4 +1,4 @@
-## Ritesh Kumar - Portfolio
+## Ritesh Kumar - Portfolio  Theta Hack 1 2021
 ![Alt text](assets/img/business.jpg)
 
 
