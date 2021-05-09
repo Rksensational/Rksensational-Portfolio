@@ -1,0 +1,94 @@
+
+1
+<?xml version="1.0" encoding="UTF-8" ?>
+2
+<!DOCTYPE html>
+3
+<html expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+4
+<head>
+5
+<!-- [ Meta Tag SEO ] -->
+6
+<meta charset='utf-8'/>
+7
+<meta content='width=device-width, initial-scale=1' name='viewport'/>
+8
+<meta content='blogger' name='generator'/>
+9
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+10
+<link href='http://www.blogger.com/openid-server.g' rel='openid.server'/>
+11
+<link expr:href='data:blog.homepageUrl' rel='openid.delegate'/>
+12
+<link expr:href='data:blog.url' rel='canonical'/>
+13
+<b:if cond='data:blog.pageType == &quot;index&quot;'>
+14
+<title><data:blog.pageTitle/></title>
+15
+<b:else/>
+16
+<b:if cond='data:blog.pageType != &quot;error_page&quot;'>
+17
+<title><data:blog.pageName/> - <data:blog.title/></title>
+18
+</b:if></b:if>
+19
+<b:if cond='data:blog.pageType == &quot;error_page&quot;'>
+20
+<title>Page Not Found - <data:blog.title/></title>
+21
+</b:if>
+22
+<b:if cond='data:blog.pageType == &quot;archive&quot;'>
+23
+<meta content='noindex' name='robots'/>
+24
+</b:if>
+25
+<b:if cond='data:blog.searchLabel'>
+26
+<meta content='noindex,nofollow' name='robots'/>
+27
+</b:if>
+28
+<b:if cond='data:blog.isMobile'>
+29
+<meta content='noindex,nofollow' name='robots'/>
+30
+</b:if>
+31
+<b:if cond='data:blog.pageType != &quot;error_page&quot;'>
+32
+<meta expr:content='data:blog.metaDescription' name='description'/>
+33
+<b:if cond='data:blog.homepageUrl != data:blog.url'>
+34
+<meta expr:content='data:blog.pageName + &quot;, &quot; + data:blog.pageTitle + &quot;, &quot; + data:blog.title' name='keywords'/>
+35
+</b:if></b:if>
+36
+<b:if cond='data:blog.url == data:blog.homepageUrl'>
+37
+<meta content='Clean and Responsive Blogger Template, SEO Friendly, HTML5, Personal Blog' name='keywords'/></b:if>
+38
+<link expr:href='data:blog.homepageUrl + &quot;feeds/posts/default&quot;' expr:title='data:blog.title + &quot; - Atom&quot;' rel='alternate' type='application/atom+xml'/>
+39
+<link expr:href='data:blog.homepageUrl + &quot;feeds/posts/default?alt=rss&quot;' expr:title='data:blog.title + &quot; - RSS&quot;' rel='alternate' type='application/rss+xml'/>
+40
+<link expr:href='&quot;http://www.blogger.com/feeds/&quot; + data:blog.blogId + &quot;/posts/default&quot;' expr:title='data:blog.title + &quot; - Atom&quot;' rel='alternate' type='application/atom+xml'/>
+41
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+42
+<b:if cond='data:blog.postImageThumbnailUrl'>
+43
+<link expr:href='data:blog.postImageThumbnailUrl' rel='image_src'/>
+44
+</b:if></b:if>
+45
+<link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+46
+<meta expr:content='data:post.author' name='Author'/>
+Template: Edit Template
